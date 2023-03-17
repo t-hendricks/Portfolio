@@ -47,3 +47,27 @@ nav.nav-bar {
     align-items: center;
     background-color: dimgray;
 }
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    width: 400px;
+}
+
+#email {
+    width: 400px;
+}
+
+#message {
+    height: 200px;
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+}
