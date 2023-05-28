@@ -1,53 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Trevor Hendricks</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Trevor's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-        <header>
-            <nav class="logo">
-                <a href="#home">Trevor H.</a> 
-            </nav>
-            <nav class="nav-bar">
-               <a href="#about">About</a> 
-               <a href="#projects">Projects</a>
-               <a href="#contact">Contact</a>
-               <a href="">LinkedIn</a>
-               <a href="">GitHub</a>
-            </nav>
-        </header>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#work">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-        <main id="home">
-            <h1>Home</h1>
-        </main>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/profile.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi, I'm <strong>Trevor Hendricks</strong></h1>
+							</header>
+							<p>I'm a software engineer based in Texas with credible experience in building complex applications with the latest technologies</p>
+							<a href="#work" class="button large scrolly">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-        <summary id="about">
-            <h1>About</h2>
-        </summary>
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>About Me</h2>
+						<p>Here you will find more information about what I do and my current skills</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-code"></span>
+								<h3>Frontend Development</h3>
+								<p>I build client-side applications with semantic and object-oriented coding styles for modern features like SPA. I use modern frameworks such as <strong>Angular</strong> and <strong>Bootstrap</strong>.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-terminal"></span>
+								<h3>Backend Development</h3>
+								<p>I build modular and maintainable server applications with Object-Oriented Design principles using technologies, such as <strong>Spring Boot</strong>, <strong>PostgreSQL</strong>, <strong>Rest Assured</strong> and <strong>MockMVC</strong>.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-project-diagram"></span>
+								<h3>Project Management</h3>
+								<p>I maintain projects scope of work and timeline with methodoligies such as <strong>Scrum</strong> and <strong>Extreme Programming</strong> using tools like <strong>GitHub Projects</strong> kanbans, tables, and roadmaps.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Want to see more?</p>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
 
-        <section id="projects">
-            <h1>Projects</h3>
-        </section>
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Portfolio</h2>
+						<p>Here's some recent personal projects that I developed</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://t-hendricks.github.io/tic-tac-toe/" target="_blank" class="image featured"><img src="images/tictactoe.png" alt="" /></a>
+								<h3><a href="https://github.com/t-hendricks/tic-tac-toe" target="_blank">Tic-Tac-Toe</a></h3>
+								<p>A digital imitation of a classic game.</p>
+								<p><strong>Tools: </strong><em>HTML, JavaScript, Git, GitHub</em></p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/t-hendricks/anime-watch-list-API" target="_blank" class="image featured"><img src="images/api-erd.png" alt="" /></a>
+								<h3><a href="https://github.com/t-hendricks/anime-watch-list-API" target="_blank">Watchlist API</a></h3>
+								<p>An API that allows users to personalize their watchlist with their favorite anime.</p>
+								<p><strong>Tools: </strong><em>Java, Spring Boot, Rest Assured, PostgreSQL, Postman, Git, GitHub</em></p>
+							</article>
+						</div>
+						<!-- <div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Lorem ipsum</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div> -->
+					</div>
+					<footer>
+						<p>Still interested?</p>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
 
-        <section id="contact">
-            <h3>Contact</h3>
-            <form action="/action_page.js">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="email">Email</label><br>
-                <input type="text" id="email" name="email"><br><br>
-                <label for="message">Message</label><br>
-                <input type="text" id="message" name="message"><br><br>
-                <input type="submit" id="send" value="Send">
-            </form> 
-        </section>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Contact</h2>
+						<p>Feel free to contact me by submitting the form below</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="mailto:h.trevs@outlook.com?subject=Contact From Portfolio" enctype="text/plain" name="EmailForm">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="First Name" id="first-name" placeholder="First Name" maxlength="15" required/>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="Last Name" id="last-name" placeholder="Last Name" maxlength="15" required/>
+									</div>
+									<div class="col-12">
+										<textarea name="Message" id="message" placeholder="Message" maxlength="300" required></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/t-hendricks/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/t-hendricks" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Trevor Hendricks All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_
+								">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
-        <footer>
-            Copyright
-        </footer>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    </body>
+	</body>
 </html>
